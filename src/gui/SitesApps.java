@@ -367,8 +367,8 @@ public class SitesApps extends javax.swing.JFrame {
 
     private void sairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairActionPerformed
 
-        // Inicia a tela de login e fecha a janela Site / Apps pelo botão "Sair"
-        Login1 obj = new Login1();
+        // Vai para tela de mensuração do sistema
+        Mensuração obj = new Mensuração();
         obj.setVisible(true);
         dispose();
 

@@ -156,10 +156,10 @@ public class Segurança extends javax.swing.JFrame {
 
     private void sairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairActionPerformed
 
-        // Inicia a tela de login e fecha a janela Segurança pelo botão "Sair"
-        Login1 obj = new Login1();
+     // Inicia a tela de login e fecha a janela Segurança pelo botão "Sair"
+        Mensuração obj = new Mensuração ();
         obj.setVisible(true);
-        dispose();
+        dispose();   
 
     }//GEN-LAST:event_sairActionPerformed
 

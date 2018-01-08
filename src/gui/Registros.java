@@ -315,8 +315,8 @@ public class Registros extends javax.swing.JFrame {
 
     private void sairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairActionPerformed
 
-        // Inicia a tela de Login e fecha a janela Registros pelo botão "Sair"
-        Login1 obj = new Login1();
+        // Vai para tela de mensuração do sistema
+        Mensuração obj = new Mensuração();
         obj.setVisible(true);
         dispose();
 

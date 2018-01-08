@@ -179,8 +179,8 @@ public class Tela_Inicial extends javax.swing.JFrame {
 
     private void sairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairActionPerformed
 
-        // Volta a tela de login pelo botão "Sair"
-        Login1 obj = new Login1();
+        // Vai para tela de mensuração do sistema
+        Mensuração obj = new Mensuração();
         obj.setVisible(true);
         dispose();
 
